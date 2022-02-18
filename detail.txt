@@ -1,0 +1,17 @@
+:: install react
+yarn create react-app my-app --template typescript
+
+
+:: install mui
+yarn add @mui/material @mui/styled-engine-sc styled-components
+
+
+:: font icon
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
+
+
+:: install redux and redux dev tools
+yarn add @reduxjs/toolkit @types/react-redux react-redux redux-devtools-extension
